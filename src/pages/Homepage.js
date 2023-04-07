@@ -1,23 +1,19 @@
-import './App.css';
-
-import ChooseLocation from './pages/chooseLocation/ChooseLocation';
-import TouristObject from './pages/touristObject/TouristObject';
-import CityAttractions from './pages/cityAttractions/CityAttractions';
-import AudioguideObj from './pages/audioguideObj/AudioguideObj';
-
+import React from 'react'
 import {BiArrowBack, BiCalendarCheck} from 'react-icons/bi';
 import {FiHeadphones} from 'react-icons/fi';
 import {CiForkAndKnife} from 'react-icons/ci';
 import {SlHome} from 'react-icons/sl';
-import { Link } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
-function App() {
+const Homepage = () => {
+  const nav = useNavigate();
   return (
     <div className="container">
-      <BiArrowBack id='backButton'/>
-      <ChooseLocation/>
+        <BiArrowBack id='backButton' onClick={() => nav(-1)}/>
 
-      <div className="menu">
+        <div>you're at homepage page</div>
+        
+        <div className="menu">
         <div className="options">
           <Link to='/homepage'><SlHome className='icon'/></Link>
           <Link to='/'><FiHeadphones className='icon'/></Link>
@@ -26,7 +22,8 @@ function App() {
         </div>
       </div>
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default Homepage

@@ -1,0 +1,37 @@
+h1 {
+    margin: 1rem 0 3rem 0;
+    font-size: 30px;
+}
+
+.locationBtns .btnsLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.locationContainer button {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #ff6f00;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.locationContainer button:hover {
+    background: #ff6f00;
+    color: #fff;
+}
+
+.locationContainer p {
+    margin-top: 3.5rem;
+    line-height: 1.5;
+    opacity: 0.8;
+    width: 100%;
+    font-size: 16px;
+}
