@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Elistory-Audioguide/static/css/main.3f02045d.css",
+    "main.js": "/Elistory-Audioguide/static/js/main.de731c4f.js",
+    "static/media/Jensation - Delicious [NCS Release].mp3": "/Elistory-Audioguide/static/media/Jensation - Delicious [NCS Release].3269e85aae682d31ecb4.mp3",
+    "static/media/mounts.jpg": "/Elistory-Audioguide/static/media/mounts.bccfe943ff245c6dbd6b.jpg",
+    "static/media/Dodge and Burn.jpg": "/Elistory-Audioguide/static/media/Dodge and Burn.2f7c5d6571ec285099e5.jpg",
+    "static/media/hiker.jpg": "/Elistory-Audioguide/static/media/hiker.33999102e9d1828ff8f6.jpg",
+    "static/media/alley.jpg": "/Elistory-Audioguide/static/media/alley.f5a7dd459a0f2148561f.jpg",
+    "index.html": "/Elistory-Audioguide/index.html",
+    "main.3f02045d.css.map": "/Elistory-Audioguide/static/css/main.3f02045d.css.map",
+    "main.de731c4f.js.map": "/Elistory-Audioguide/static/js/main.de731c4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f02045d.css",
+    "static/js/main.de731c4f.js"
+  ]
+}
